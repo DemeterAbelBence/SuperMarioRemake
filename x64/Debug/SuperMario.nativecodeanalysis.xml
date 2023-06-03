@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Dev\SDL2-2.0.22\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>113</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'SDL_bool' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>SDL_PointInRect</FUNCTION>
+    <DECORATED>SDL_PointInRect</DECORATED>
+    <FUNCLINE>110</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Dev\SDL2-2.0.22\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>255</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SDL_FRectEqualsEpsilon</FUNCTION>
+    <DECORATED>SDL_FRectEqualsEpsilon</DECORATED>
+    <FUNCLINE>252</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Dev\SDL2-2.0.22\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>256</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SDL_FRectEqualsEpsilon</FUNCTION>
+    <DECORATED>SDL_FRectEqualsEpsilon</DECORATED>
+    <FUNCLINE>252</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Dev\SDL2-2.0.22\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>257</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SDL_FRectEqualsEpsilon</FUNCTION>
+    <DECORATED>SDL_FRectEqualsEpsilon</DECORATED>
+    <FUNCLINE>252</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Dev\SDL2-2.0.22\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>258</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SDL_FRectEqualsEpsilon</FUNCTION>
+    <DECORATED>SDL_FRectEqualsEpsilon</DECORATED>
+    <FUNCLINE>252</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>SDLhandling.hpp</FILENAME>
+      <LINE>154</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'SDL::Event::event' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>SDL::Event::{ctor}</FUNCTION>
+    <DECORATED>??0Event@SDL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>154</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>SDL::Event::event</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Obstacle.hpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Obstacle::activated' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Obstacle::{ctor}</FUNCTION>
+    <DECORATED>??0Obstacle@@QEAA@HHHH@Z</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Obstacle::activated</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Obstacle.hpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Obstacle::deadly' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Obstacle::{ctor}</FUNCTION>
+    <DECORATED>??0Obstacle@@QEAA@HHHH@Z</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Obstacle::deadly</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Obstacle.hpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Obstacle::destroyed' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Obstacle::{ctor}</FUNCTION>
+    <DECORATED>??0Obstacle@@QEAA@HHHH@Z</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Obstacle::destroyed</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Entity.hpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Entity::fallSpeed' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Entity::{ctor}</FUNCTION>
+    <DECORATED>??0Entity@@QEAA@XZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Entity::fallSpeed</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Entity.hpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Entity::jumpHeight' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Entity::{ctor}</FUNCTION>
+    <DECORATED>??0Entity@@QEAA@XZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Entity::jumpHeight</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Entity.hpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Entity::imageIndex' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Entity::{ctor}</FUNCTION>
+    <DECORATED>??0Entity@@QEAA@XZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Entity::imageIndex</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Entity.hpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Entity::moveSpeed' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Entity::{ctor}</FUNCTION>
+    <DECORATED>??0Entity@@QEAA@XZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Entity::moveSpeed</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Entity.hpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Entity::jumpSpeed' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Entity::{ctor}</FUNCTION>
+    <DECORATED>??0Entity@@QEAA@XZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Entity::jumpSpeed</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Entity.hpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Entity::jumpLimit' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Entity::{ctor}</FUNCTION>
+    <DECORATED>??0Entity@@QEAA@XZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Entity::jumpLimit</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Entity.hpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Entity::state' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Entity::{ctor}</FUNCTION>
+    <DECORATED>??0Entity@@QEAA@XZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Entity::state</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Chunk.hpp</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Chunk::ground' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Chunk::{ctor}</FUNCTION>
+    <DECORATED>??0Chunk@@QEAA@XZ</DECORATED>
+    <FUNCLINE>56</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Chunk::ground</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Button.hpp</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Button::imageIndex' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Button::{ctor}</FUNCTION>
+    <DECORATED>??0Button@@QEAA@XZ</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Button::imageIndex</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Button.hpp</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Button::choosen' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Button::{ctor}</FUNCTION>
+    <DECORATED>??0Button@@QEAA@XZ</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Button::choosen</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Map.hpp</FILENAME>
+      <LINE>167</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'this-&gt;chunks'.</DESCRIPTION>
+    <FUNCTION>Map&lt;10&gt;::update</FUNCTION>
+    <DECORATED>?update@?$Map@$09@@QEAAXAEAVPlayer@@@Z</DECORATED>
+    <FUNCLINE>135</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Map.hpp</FILENAME>
+        <LINE>136</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Map.hpp</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'chunks' is an Output from 'Chunk::playerUpdate' (declared at c:\users\demet\onedrive\asztali gép\programok\supermario\chunk.hpp:103)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Map.hpp</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>52</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'chunks' is an Output from 'Chunk::entityEntitiesCollisionUpdate' (declared at c:\users\demet\onedrive\asztali gép\programok\supermario\chunk.hpp:163)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Map.hpp</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Map.hpp</FILENAME>
+        <LINE>152</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Map.hpp</FILENAME>
+        <LINE>164</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'currentChunk&lt;10-1')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Map.hpp</FILENAME>
+        <LINE>165</LINE>
+        <COLUMN>58</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'chunks' is an Output from 'Chunk::entityObstaclesCollisionUpdate' (declared at c:\users\demet\onedrive\asztali gép\programok\supermario\chunk.hpp:150)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Map.hpp</FILENAME>
+        <LINE>166</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'currentChunk&lt;10-1')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Map.hpp</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>40</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'chunks' is an Output from 'Chunk::enemyUpdate' (declared at c:\users\demet\onedrive\asztali gép\programok\supermario\chunk.hpp:169)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Map.hpp</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>40</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'this-&gt;chunks[-1]', (readable range is 0 to 9)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Map.hpp</FILENAME>
+      <LINE>43</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Map&lt;10&gt;::currentChunk' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Map&lt;10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Map@$09@@QEAA@XZ</DECORATED>
+    <FUNCLINE>43</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Map&lt;10&gt;::currentChunk</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Collection.hpp</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Collection&lt;Button&gt;::insert</FUNCTION>
+    <DECORATED>?insert@?$Collection@VButton@@@@QEAAXPEAVButton@@@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Array.hpp</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Array&lt;Entity *&gt;::add</FUNCTION>
+    <DECORATED>?add@?$Array@PEAVEntity@@@@QEAAXPEAVEntity@@@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Array.hpp</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Array&lt;Obstacle *&gt;::add</FUNCTION>
+    <DECORATED>?add@?$Array@PEAVObstacle@@@@QEAAXPEAVObstacle@@@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Collection.hpp</FILENAME>
+      <LINE>70</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Collection&lt;Obstacle&gt;::remove</FUNCTION>
+    <DECORATED>?remove@?$Collection@VObstacle@@@@QEAAXPEAVObstacle@@_N@Z</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Collection.hpp</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Collection&lt;Obstacle&gt;::insert</FUNCTION>
+    <DECORATED>?insert@?$Collection@VObstacle@@@@QEAAXPEAVObstacle@@@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Collection.hpp</FILENAME>
+      <LINE>70</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Collection&lt;Entity&gt;::remove</FUNCTION>
+    <DECORATED>?remove@?$Collection@VEntity@@@@QEAAXPEAVEntity@@_N@Z</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Collection.hpp</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Collection&lt;Entity&gt;::insert</FUNCTION>
+    <DECORATED>?insert@?$Collection@VEntity@@@@QEAAXPEAVEntity@@@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Array.hpp</FILENAME>
+      <LINE>36</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'newData'.</DESCRIPTION>
+    <FUNCTION>Array&lt;SDL::Image&gt;::add</FUNCTION>
+    <DECORATED>?add@?$Array@VImage@SDL@@@@QEAAXVImage@SDL@@@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Array.hpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Array.hpp</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'newData' is a 8 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Array.hpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Array.hpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Array.hpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Array.hpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Array.hpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Array.hpp</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'size' is an Output from 'SDL::Image::=' (declared at c:\users\demet\onedrive\asztali gép\programok\supermario\sdlhandling.hpp:141)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+        <FILENAME>Array.hpp</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'newData', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Array.hpp</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Array&lt;SDL::Image&gt;::add</FUNCTION>
+    <DECORATED>?add@?$Array@VImage@SDL@@@@QEAAXVImage@SDL@@@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Background.hpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Background&lt;5&gt;::height' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Background&lt;5&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Background@$04@@QEAA@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Background&lt;5&gt;::height</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Background.hpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Background&lt;5&gt;::width' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Background&lt;5&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Background@$04@@QEAA@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Background&lt;5&gt;::width</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Background.hpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Background&lt;5&gt;::offsetX' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Background&lt;5&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Background@$04@@QEAA@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Background&lt;5&gt;::offsetX</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\</FILEPATH>
+      <FILENAME>Background.hpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Background&lt;5&gt;::offsetY' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Background&lt;5&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Background@$04@@QEAA@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Background&lt;5&gt;::offsetY</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

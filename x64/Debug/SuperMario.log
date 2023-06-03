@@ -1,0 +1,4 @@
+﻿  SuperMario.cpp
+C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\SuperMario.cpp(26,33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\SuperMario.cpp(29,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  SuperMario.vcxproj -> C:\Users\demet\OneDrive\Asztali gép\Programok\SuperMario\x64\Debug\SuperMario.exe

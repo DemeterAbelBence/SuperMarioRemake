@@ -1,0 +1,2072 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'SDL_bool' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/SDL2-2.0.22/include/SDL_rect.h"
+                },
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SDL_PointInRect",
+                  "decoratedName": "SDL_PointInRect",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/SDL2-2.0.22/include/SDL_rect.h"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 24,
+                  "endLine": 255,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SDL_FRectEqualsEpsilon",
+                  "decoratedName": "SDL_FRectEqualsEpsilon",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/SDL2-2.0.22/include/SDL_rect.h"
+                },
+                "region": {
+                  "startLine": 256,
+                  "startColumn": 23,
+                  "endLine": 256,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SDL_FRectEqualsEpsilon",
+                  "decoratedName": "SDL_FRectEqualsEpsilon",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/SDL2-2.0.22/include/SDL_rect.h"
+                },
+                "region": {
+                  "startLine": 257,
+                  "startColumn": 23,
+                  "endLine": 257,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SDL_FRectEqualsEpsilon",
+                  "decoratedName": "SDL_FRectEqualsEpsilon",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/SDL2-2.0.22/include/SDL_rect.h"
+                },
+                "region": {
+                  "startLine": 258,
+                  "startColumn": 23,
+                  "endLine": 258,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SDL_FRectEqualsEpsilon",
+                  "decoratedName": "SDL_FRectEqualsEpsilon",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'SDL::Event::event' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/SDLhandling.hpp"
+                },
+                "region": {
+                  "startLine": 154,
+                  "startColumn": 9,
+                  "endLine": 154,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SDL::Event::{ctor}",
+                  "decoratedName": "??0Event@SDL@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "SDL::Event::event"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Obstacle::activated' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Obstacle.hpp"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Obstacle::{ctor}",
+                  "decoratedName": "??0Obstacle@@QEAA@HHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Obstacle::activated"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Obstacle::deadly' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Obstacle.hpp"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Obstacle::{ctor}",
+                  "decoratedName": "??0Obstacle@@QEAA@HHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Obstacle::deadly"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Obstacle::destroyed' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Obstacle.hpp"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Obstacle::{ctor}",
+                  "decoratedName": "??0Obstacle@@QEAA@HHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Obstacle::destroyed"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Entity::fallSpeed' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Entity.hpp"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 2,
+                  "endLine": 27,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Entity::{ctor}",
+                  "decoratedName": "??0Entity@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Entity::fallSpeed"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Entity::jumpHeight' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Entity.hpp"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 2,
+                  "endLine": 27,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Entity::{ctor}",
+                  "decoratedName": "??0Entity@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Entity::jumpHeight"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Entity::imageIndex' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Entity.hpp"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 2,
+                  "endLine": 27,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Entity::{ctor}",
+                  "decoratedName": "??0Entity@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Entity::imageIndex"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Entity::moveSpeed' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Entity.hpp"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 2,
+                  "endLine": 27,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Entity::{ctor}",
+                  "decoratedName": "??0Entity@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Entity::moveSpeed"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Entity::jumpSpeed' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Entity.hpp"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 2,
+                  "endLine": 27,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Entity::{ctor}",
+                  "decoratedName": "??0Entity@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Entity::jumpSpeed"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Entity::jumpLimit' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Entity.hpp"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 2,
+                  "endLine": 27,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Entity::{ctor}",
+                  "decoratedName": "??0Entity@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Entity::jumpLimit"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Entity::state' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Entity.hpp"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 2,
+                  "endLine": 27,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Entity::{ctor}",
+                  "decoratedName": "??0Entity@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Entity::state"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Chunk::ground' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Chunk.hpp"
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 2,
+                  "endLine": 56,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Chunk::{ctor}",
+                  "decoratedName": "??0Chunk@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Chunk::ground"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Button::imageIndex' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Button.hpp"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 2,
+                  "endLine": 24,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Button::{ctor}",
+                  "decoratedName": "??0Button@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Button::imageIndex"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Button::choosen' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Button.hpp"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 2,
+                  "endLine": 24,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Button::{ctor}",
+                  "decoratedName": "??0Button@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Button::choosen"
+          }
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'this->chunks'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Map.hpp"
+                },
+                "region": {
+                  "startLine": 167,
+                  "startColumn": 5,
+                  "endLine": 167,
+                  "endColumn": 90
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Map<10>::update",
+                  "decoratedName": "?update@?$Map@$09@@QEAAXAEAVPlayer@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Map.hpp"
+                          },
+                          "region": {
+                            "startLine": 136,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Map.hpp"
+                          },
+                          "region": {
+                            "startLine": 139,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "'chunks' is an Output from 'Chunk::playerUpdate' (declared at c:\\users\\demet\\onedrive\\asztali gép\\programok\\supermario\\chunk.hpp:103)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Map.hpp"
+                          },
+                          "region": {
+                            "startLine": 140,
+                            "startColumn": 53
+                          }
+                        },
+                        "message": {
+                          "text": "'chunks' is an Output from 'Chunk::entityEntitiesCollisionUpdate' (declared at c:\\users\\demet\\onedrive\\asztali gép\\programok\\supermario\\chunk.hpp:163)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Map.hpp"
+                          },
+                          "region": {
+                            "startLine": 141,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Map.hpp"
+                          },
+                          "region": {
+                            "startLine": 152,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Map.hpp"
+                          },
+                          "region": {
+                            "startLine": 164,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'currentChunk<10-1')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Map.hpp"
+                          },
+                          "region": {
+                            "startLine": 165,
+                            "startColumn": 59
+                          }
+                        },
+                        "message": {
+                          "text": "'chunks' is an Output from 'Chunk::entityObstaclesCollisionUpdate' (declared at c:\\users\\demet\\onedrive\\asztali gép\\programok\\supermario\\chunk.hpp:150)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Map.hpp"
+                          },
+                          "region": {
+                            "startLine": 166,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'currentChunk<10-1')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Map.hpp"
+                          },
+                          "region": {
+                            "startLine": 167,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "'chunks' is an Output from 'Chunk::enemyUpdate' (declared at c:\\users\\demet\\onedrive\\asztali gép\\programok\\supermario\\chunk.hpp:169)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Map.hpp"
+                          },
+                          "region": {
+                            "startLine": 167,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'this->chunks[-1]', (readable range is 0 to 9)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Map<10>::currentChunk' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Map.hpp"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 2,
+                  "endLine": 43,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Map<10>::{ctor}",
+                  "decoratedName": "??0?$Map@$09@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Map<10>::currentChunk"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Collection.hpp"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 32,
+                  "endLine": 26,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Collection<Button>::insert",
+                  "decoratedName": "?insert@?$Collection@VButton@@@@QEAAXPEAVButton@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Array.hpp"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 28,
+                  "endLine": 32,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Array<Entity *>::add",
+                  "decoratedName": "?add@?$Array@PEAVEntity@@@@QEAAXPEAVEntity@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Array.hpp"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 28,
+                  "endLine": 32,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Array<Obstacle *>::add",
+                  "decoratedName": "?add@?$Array@PEAVObstacle@@@@QEAAXPEAVObstacle@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Collection.hpp"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 40,
+                  "endLine": 70,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Collection<Obstacle>::remove",
+                  "decoratedName": "?remove@?$Collection@VObstacle@@@@QEAAXPEAVObstacle@@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Collection.hpp"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 32,
+                  "endLine": 26,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Collection<Obstacle>::insert",
+                  "decoratedName": "?insert@?$Collection@VObstacle@@@@QEAAXPEAVObstacle@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Collection.hpp"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 40,
+                  "endLine": 70,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Collection<Entity>::remove",
+                  "decoratedName": "?remove@?$Collection@VEntity@@@@QEAAXPEAVEntity@@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Collection.hpp"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 32,
+                  "endLine": 26,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Collection<Entity>::insert",
+                  "decoratedName": "?insert@?$Collection@VEntity@@@@QEAAXPEAVEntity@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'newData'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Array.hpp"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 9,
+                  "endLine": 36,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Array<SDL::Image>::add",
+                  "decoratedName": "?add@?$Array@VImage@SDL@@@@QEAAXVImage@SDL@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Array.hpp"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Array.hpp"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'newData' is a 8 byte array"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Array.hpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Array.hpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Array.hpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Array.hpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Array.hpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Array.hpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "'size' is an Output from 'SDL::Image::=' (declared at c:\\users\\demet\\onedrive\\asztali gép\\programok\\supermario\\sdlhandling.hpp:141)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Array.hpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'newData', (outside its readable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Array.hpp"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 28,
+                  "endLine": 32,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Array<SDL::Image>::add",
+                  "decoratedName": "?add@?$Array@VImage@SDL@@@@QEAAXVImage@SDL@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Background<5>::height' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Background.hpp"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Background<5>::{ctor}",
+                  "decoratedName": "??0?$Background@$04@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Background<5>::height"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Background<5>::width' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Background.hpp"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Background<5>::{ctor}",
+                  "decoratedName": "??0?$Background@$04@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Background<5>::width"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Background<5>::offsetX' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Background.hpp"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Background<5>::{ctor}",
+                  "decoratedName": "??0?$Background@$04@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Background<5>::offsetX"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Background<5>::offsetY' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Background.hpp"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Background<5>::{ctor}",
+                  "decoratedName": "??0?$Background@$04@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Background<5>::offsetY"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31107.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF6DB839CC0 -il C:\\temp\\_CL_40407c53ast -typedil -f SuperMario.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131107 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I C:\\Dev\\SDL2_image-2.0.5\\include -I C:\\Dev\\SDL2-2.0.22\\include -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -permissive- -Fox64\\Debug\\SuperMario.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\demet\\OneDrive\\Asztali gép\\Programok\\SuperMario -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Dev\\Visual Leak Detector\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Dev/SDL2-2.0.22/include/SDL_rect.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "370e15bae1fab1f5c9e92985000c5691764dc294b233ddccd0d843726ac835fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/SDLhandling.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "4d970ed8f53c9e6d993f6052316576ae899b4a5dfcc33018b4fec4fa9b5d6589"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Obstacle.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "3b130b4606332b1b1288a58f6d790e52266b119377cd4fda03208a20c82ca439"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Entity.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "cf6ac8589d44fa17541a0b23a1c97fda97e3ed0975c19d054776b56b1cf210e2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Chunk.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "eb805210e59cab09560d9ad2580ff1132ec8ff82747e673c68f81c12fb14ad2c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Button.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f49c6ddb40812cf75347871d5df2f28502f84f8615203f4a24efbd28a9955543"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Map.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ebbea27db77700f825acd938bd620c09736e6731eb37bcc72601a117d139268a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Collection.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "c58c06dc7007435a616f909f0ca36ecb71cfdac8d6de715d53b5c9e52a8c80ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Array.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d51e62fbb9f993dc4cfa000123de7cac37d2fed316ca92361e4820e3c15f4a20"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/demet/OneDrive/Asztali gép/Programok/SuperMario/Background.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2ecba25dff13ea888942596e0ee8efee7e77182fe039aae86c1283b25c11448a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/supermario.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "69349da0ba484f046b4f42bbcbf580b264edaca36eba54b140ca5a0beed37ba0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/mouse.hpp"
+          },
+          "hashes": {
+            "sha-256": "fed0e10a3866a6d074926b98d5e3a71f4c4589e19af8b4f064619683414b66bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2_image-2.0.5/include/sdl_image.h"
+          },
+          "hashes": {
+            "sha-256": "180792a5b429f891d7af256c526edf4a4e82118bc778ddeff9dbc93485028009"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl.h"
+          },
+          "hashes": {
+            "sha-256": "f4d6b0cd180b0e6e1423fac314a1bef93f0f9d4f21891e496d8c9de95dccc7b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_main.h"
+          },
+          "hashes": {
+            "sha-256": "035da815471872fae30fbc7df5e9278e8a15c595bb9e4bb50bd0af946edd006c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_stdinc.h"
+          },
+          "hashes": {
+            "sha-256": "ea877a3ad2f21f0cdd575a57db3af82b371eb7423c34a7e20742aff8c97af46a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_config.h"
+          },
+          "hashes": {
+            "sha-256": "21e9285bf607a5b0d4fc5a00418ad79e94bfc0ffecfc1a563ec7dc6fb97774f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_platform.h"
+          },
+          "hashes": {
+            "sha-256": "d876860250fe8df6eb49051b761da292130920881a4b26586381e3f10c3c9caf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/begin_code.h"
+          },
+          "hashes": {
+            "sha-256": "28375476c52d6319a8d19c902cdc0e1ee5932856899ee8dca1e17a79dce9e121"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/close_code.h"
+          },
+          "hashes": {
+            "sha-256": "f49100335e21a43455ead0e742f7c816d0494171ce10948e3637b9abf3ca953a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_assert.h"
+          },
+          "hashes": {
+            "sha-256": "537353fa26102f232ec8bf02f6c44ec8611f9d66794860e75b6cef3f17d600a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_atomic.h"
+          },
+          "hashes": {
+            "sha-256": "d9f667d640581e1a0a4685b03541e5096103629d4a1cc489a427e612a8f8d793"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_audio.h"
+          },
+          "hashes": {
+            "sha-256": "7598b50ec4f5aea30109068cca25088345612f60629a2db5bd3a195521f3a078"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_error.h"
+          },
+          "hashes": {
+            "sha-256": "470f04a4562305966d7705b774c1e85fb6e9e8ce4c136f2669bd4cc2cc6c922f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_endian.h"
+          },
+          "hashes": {
+            "sha-256": "50276f51b0382d2a8df00832e7f43af9f9629d1c20e9eef87ae92607cb13e845"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_mutex.h"
+          },
+          "hashes": {
+            "sha-256": "3a656b533b97a5527a89fcfbb709c37024f7ed293d942a6a3f9ce068273f42d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_thread.h"
+          },
+          "hashes": {
+            "sha-256": "799af54b869db2d7c739ab4dee8865525f8b9d537e857527edecc1897d9a7294"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_rwops.h"
+          },
+          "hashes": {
+            "sha-256": "3f844c7425c5ffd2bde779ba43e7aa557442915cd5015fa15db3a87b77b803a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_clipboard.h"
+          },
+          "hashes": {
+            "sha-256": "f632d628d78712a4ab23d9159e1c2dc5e91b1fc784c1aeb859d27eadce3044e6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_cpuinfo.h"
+          },
+          "hashes": {
+            "sha-256": "3a8d6a5710aaf9d93193d9447f4bf4ab03e68db09e2c04cb1f85711b6c9b3108"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_events.h"
+          },
+          "hashes": {
+            "sha-256": "bc612b1863c03b33f56682116164196960bb6cfd378da80e44768525fb541222"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_video.h"
+          },
+          "hashes": {
+            "sha-256": "533bf635c1d6cec5412951095a520fcc41aed2148b4083fc30cf3137df0b3701"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_pixels.h"
+          },
+          "hashes": {
+            "sha-256": "b1ea3870abcf21584a520e41cdca0e32d957b87c0afb8cdafac95dda80e1810c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_surface.h"
+          },
+          "hashes": {
+            "sha-256": "939f0134665cf7775bbf23f8a323041cbecb4cc0a77041d29bb11d711f3bf30e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_blendmode.h"
+          },
+          "hashes": {
+            "sha-256": "64082c3f9c6a5d08ac143004dc3591586bd498fdf443416a2ad5e153d8fd3da8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_keyboard.h"
+          },
+          "hashes": {
+            "sha-256": "2ed89a1b495581c1f6f5efa8b3a706c1e58a6e5af15c555be04bcff7f9335563"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_keycode.h"
+          },
+          "hashes": {
+            "sha-256": "6e94ee3828d8ea54507221fd00cc2e5316fad77522d067ca88d3d368e7e21023"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_scancode.h"
+          },
+          "hashes": {
+            "sha-256": "38bdd13500f65fdebe931b14d32447e1aa52c7fb4a862dc1c51979d8e1406129"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_mouse.h"
+          },
+          "hashes": {
+            "sha-256": "9685fd425fc4acd4af0824862b56949eb8293c44139f6e8833a8e1b0457ff7a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_joystick.h"
+          },
+          "hashes": {
+            "sha-256": "d7efa701d2ea95e8368af94b2ec90ba2be9926de86fdadb3d71690c5da412386"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_gamecontroller.h"
+          },
+          "hashes": {
+            "sha-256": "a2386cb1abf3b3257ac2f9c67c12ae3c6c93c6bd0c01983e54319603c1a68a57"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_sensor.h"
+          },
+          "hashes": {
+            "sha-256": "5e66263151bad5fce025f8fbee6191393cb0b8c5ac36044b1b9f7b6e1cfea5e6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_quit.h"
+          },
+          "hashes": {
+            "sha-256": "a2fd94238708d48b3262af2a93bfff470ae663939b021a7b2a4453d1ca7c5d53"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_gesture.h"
+          },
+          "hashes": {
+            "sha-256": "9fc58622bc0194b0d6766ea56fe32db47c0b199f35b007e370d1d0a88012acf8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_touch.h"
+          },
+          "hashes": {
+            "sha-256": "e132fa6288a6f73589a38c5729977f319b2b508acd52f95916912ea0cb4e2255"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_filesystem.h"
+          },
+          "hashes": {
+            "sha-256": "79488f1cca5904faa69c6dfeb8efe8f6360ded8eee103f1611ba7e9bacdfcfed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_haptic.h"
+          },
+          "hashes": {
+            "sha-256": "ae535dfd03e7d2d52435965de6eb5cd200157fd721200ecc3a401b0cec0f65ad"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_hidapi.h"
+          },
+          "hashes": {
+            "sha-256": "f13f679c630c3910d63982d3ff44a9ab0b17892da2a93cfc2a1bf93d65a7b1c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_hints.h"
+          },
+          "hashes": {
+            "sha-256": "697c3b9c421cb7b5530938ee24d88d35147a93f22dc7e3d164ba8d12d4ca1b65"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_loadso.h"
+          },
+          "hashes": {
+            "sha-256": "8e4d0357ad6c8069cd7de68201736065500a8c7b2384e7fd65d4ee4d160091cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_log.h"
+          },
+          "hashes": {
+            "sha-256": "5b1827929c323cdfd2e7dca4458fb286d3d39f04bd2b4e1c200567ba788efb58"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_messagebox.h"
+          },
+          "hashes": {
+            "sha-256": "9f8e01efd07295e6d0f4ef3350bd217ada6996591c2022b7f9163fbfdfe67eef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_metal.h"
+          },
+          "hashes": {
+            "sha-256": "8c80acbb8c88af9b544c0d79c77073600db9c4aff7c08ccc6af541cccd91cc8c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_power.h"
+          },
+          "hashes": {
+            "sha-256": "93ae2fad778ff057a582f4940cc83864b4991aeaeaeb5c94f3bc30ebfe6633ef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_render.h"
+          },
+          "hashes": {
+            "sha-256": "38b740284b25e7e7687d8e6419270bd121f6d909b9ead7a74aafebef9607265c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_shape.h"
+          },
+          "hashes": {
+            "sha-256": "1d35455675397d3dcd27bef13c62ec4c4c40b2211c27d589af23bfccb6492fa7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_system.h"
+          },
+          "hashes": {
+            "sha-256": "5036288920152c77903b86f611df919d914b92510902c75d074c3005bae5557c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_timer.h"
+          },
+          "hashes": {
+            "sha-256": "190af3b762fd203ce25c17eda9fb31d698bd75957f59d4ce7cc21671e8a2403a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_version.h"
+          },
+          "hashes": {
+            "sha-256": "8b74de2cc84d7ab1cf194719ee21dbc5f0620c7d08c6d06f7a3c9959676d90e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_locale.h"
+          },
+          "hashes": {
+            "sha-256": "9919ace207fad203b24ac916c92b529f74088ed14c797760a32e05b76c6058ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/sdl2-2.0.22/include/sdl_misc.h"
+          },
+          "hashes": {
+            "sha-256": "ee696c2a1135d0110ce6c9efe0d67f9a9e8ec400f6f00c2b53247995193f96ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/game.hpp"
+          },
+          "hashes": {
+            "sha-256": "6f8b4a8e751c9ad2dfa00cb9ad90381e812f83f35fd9292b2d7c71ed66e10ad4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/hitbox.hpp"
+          },
+          "hashes": {
+            "sha-256": "7b879295006cc7bb44da77817d2d01e30f1b69bb90f4abadabc04a223236bbd1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/state.hpp"
+          },
+          "hashes": {
+            "sha-256": "1b49e3b90e652cc600daed7470438d31eaaf437cc64e70e79d425fd027b02926"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/timer.hpp"
+          },
+          "hashes": {
+            "sha-256": "fc0f5622db589ed20ec3af6d131f1f5097392d1586f3d3ae9ac90e54c04f05e8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/player.hpp"
+          },
+          "hashes": {
+            "sha-256": "d3f2be2566279a4cb1c36c7e80c2371b0edd397b83756b1a4d6ade66989b1c99"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/goomba.hpp"
+          },
+          "hashes": {
+            "sha-256": "355ae4c33dac7384836503a4e32bb2a31dfd9d745c04607a7abba10f59e7a64b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/mushroom.hpp"
+          },
+          "hashes": {
+            "sha-256": "24ea14ff66dd40740040204682c2fd57e137f95d6c0a65d38a6b59fed98bb7cd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/piranhaplant.hpp"
+          },
+          "hashes": {
+            "sha-256": "18cf831245d760b4af9f8a5fc7313f40549cabe2639d8fec12fa30fe961bc606"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/flower.hpp"
+          },
+          "hashes": {
+            "sha-256": "a6c41385d7289d7c8df547e8edd46d95c616b32f3498897db1aec3e051f42292"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/fireball.hpp"
+          },
+          "hashes": {
+            "sha-256": "8bc900966d41dc3ca6cdd2140ff5d26dc3e5177d62e76b3568df3d869bcd7e18"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/dirt.hpp"
+          },
+          "hashes": {
+            "sha-256": "cddef66717b17de677230ac918c7aff567899161bdfc56aceca636beb85b1188"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/pit.hpp"
+          },
+          "hashes": {
+            "sha-256": "05b8ccc3e4c5fea58036b22238e277bd5eefe7811793d377c83647d152381112"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/brick.hpp"
+          },
+          "hashes": {
+            "sha-256": "e606ef997c931865662dc43ab9f2daad707221151e225968268e9376b44ce467"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/luckybrick.hpp"
+          },
+          "hashes": {
+            "sha-256": "c2f074dc62bce4f0886f823dae03300b6bb179d29e6757e0db8dbb7905d108aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/pipe.hpp"
+          },
+          "hashes": {
+            "sha-256": "c252db40bc526336ddd59ffc69de333721446ea236ebc30294c553f4bc5ec193"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/invisiblewall.hpp"
+          },
+          "hashes": {
+            "sha-256": "6d8e290d7f22486cf3c10dfca846d00ab26df62f7ebcbd05e725eb685098074d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/spawner.hpp"
+          },
+          "hashes": {
+            "sha-256": "439f2d9b465f75633e4345c5f2f7baa30a13c83392b72058924acc8c0b4a0207"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/demet/onedrive/asztali gép/programok/supermario/menu.hpp"
+          },
+          "hashes": {
+            "sha-256": "0b9c5f44b9387976a844bc1403707e07fcb7cc634a4956ea88a8c974a3ced408"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/visual leak detector/include/vld.h"
+          },
+          "hashes": {
+            "sha-256": "eb6e39225ae65abb7db13f37e31ea5cf1517eb3bfc900fd1cc588e03a1039d18"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/visual leak detector/include/vld_def.h"
+          },
+          "hashes": {
+            "sha-256": "edb2f9db9bf456cc4fb842c3f7279ef2a30ead5313b62b74a4f0c2983e23e47d"
+          }
+        }
+      ]
+    }
+  ]
+}
